@@ -1,2 +1,4 @@
-# Software-Testing-Technology
- Software Testing Technology (2019)
+# Software Testing Technology
+## Tianjin University
+### Hao Fu
+#### 3016218083@tju.edu.cn
