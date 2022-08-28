@@ -1,0 +1,84 @@
+{
+  "id": "2e260922-ff96-4f7d-8410-c22ac5ee6b0b",
+  "version": "2.0",
+  "name": "FuHao_Lab2",
+  "url": "https://www.baidu.com",
+  "tests": [{
+    "id": "8ba90d24-9a0c-40df-b98c-2171d2a63e99",
+    "name": "FuHao_Lab2_1",
+    "commands": [{
+      "id": "4770ea7a-60ba-41a7-841d-cf66cd8a498a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aa902b3d-7235-43b1-8a3e-22d591ee0986",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1456x916",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "859dcf4e-ac4e-46a0-8e15-5ba6416622f0",
+      "comment": "",
+      "command": "click",
+      "target": "id=kw",
+      "targets": [
+        ["id=kw", "id"],
+        ["name=wd", "name"],
+        ["css=#kw", "css:finder"],
+        ["xpath=//input[@id='kw']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85e8e46e-624c-45bc-a62a-952b62cd108e",
+      "comment": "",
+      "command": "type",
+      "target": "id=kw",
+      "targets": [
+        ["id=kw", "id"],
+        ["name=wd", "name"],
+        ["css=#kw", "css:finder"],
+        ["xpath=//input[@id='kw']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "天津大学"
+    }, {
+      "id": "5299559a-2623-4fcf-950e-1e138ad14b20",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=kw",
+      "targets": [
+        ["id=kw", "id"],
+        ["name=wd", "name"],
+        ["css=#kw", "css:finder"],
+        ["xpath=//input[@id='kw']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "d123e6a2-071f-4731-a991-9e84ba3a71ce",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "天津大学_百度搜索",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ffbccd8f-ce5a-4074-b91c-a273215c043e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8ba90d24-9a0c-40df-b98c-2171d2a63e99"]
+  }],
+  "urls": ["https://www.baidu.com/"],
+  "plugins": []
+}
